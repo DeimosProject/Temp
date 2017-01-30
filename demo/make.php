@@ -2,11 +2,11 @@
 
 include_once dirname(__DIR__) . '/vendor/autoload.php';
 
-$file = new \Deimos\Temp\File();
+$file = new \Deimos\Temp\File('hell');
 
 var_dump($file);
 
-$file->puts('hello ');
+$file->puts('o ');
 $file->puts('world');
 
 var_dump($file);
